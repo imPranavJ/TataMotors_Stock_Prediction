@@ -16,6 +16,3 @@ prediction = model.predict()
 forecast = prediction.forecast
 
 print(forecast)
-
-fig,ax = plt.subplots(figsize=(20,3))
-ax.plot(forecast)
